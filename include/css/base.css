@@ -1,0 +1,112 @@
+.primary_bg {
+  background-color: #050050;
+  color: #f8ecb4;
+}
+
+.primary_bg h5 {
+  color: #f8ecb4;
+}
+
+.sec_bg {
+  color: #050050;
+  background-color: #f8ecb4;
+}
+
+.sec_bg .sec--color2 {
+  color: rgba(5, 0, 80, 0.64);
+}
+
+.sec_bg a {
+  color: #050050;
+}
+
+.sec_bg h5 {
+  color: #050050;
+}
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+label {
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.primary__btn {
+  color: #391400;
+  background-color: #FFFFFF;
+  padding: 15px 30px;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sec__btn {
+  color: #f8ecb4;
+  background-color: #050050;
+  padding: 15px 30px;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bordered__btn {
+  color: #f8ecb4;
+  background-color: transparent;
+  padding: 15px 30px;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2957);
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+section .section__wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  padding: 50px 40px;
+}
+/*# sourceMappingURL=base.css.map */

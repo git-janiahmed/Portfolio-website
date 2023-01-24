@@ -1,0 +1,101 @@
+// navbar css
+
+.header {
+  color: $primary__bg--color;
+  width: 100%;
+}
+
+
+.navbar {
+  
+  .navbar__wrapper {
+    width: 100%;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary__bg;
+z-index: 99;
+    position: fixed;
+    top: 0;
+
+    .navbar__logo {
+      img {
+        max-width: 150px;
+        width: 100%;
+      }
+    }
+
+    .navbar__menu ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      justify-content: space-between;
+
+      li {
+        a {
+          text-decoration: none;
+          color:  $primary__bg--color;
+        }
+      }
+    }
+  }
+}
+
+
+.hero{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 5em;
+
+.hero__text{
+  padding: 50px 0px;
+  width: 100%;
+  h1{
+    margin: 20px 0px;
+    font-size: 8em;
+  }
+  .intro__text--grid{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ gap: 50px;
+    .intro--text{
+    color: $text__Grey;
+    margin-bottom: 2rem;
+    font-size: 1.7em;
+  }
+}
+}
+.hero__img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width:100%;
+  text-align: center;
+  img{
+    max-width: 260px;
+    width: 100%;
+    background-color: $primary__bg--color;
+padding: 30px;
+padding-bottom: 0px;
+border-radius: 60% 60% 0 0;
+mix-blend-mode:soft-light;
+transition: all 1.5s ease-in-out;
+cursor: pointer;
+&:hover{
+  max-width: 360px;
+  mix-blend-mode:normal;
+
+}
+}
+
+}
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@import 'base';
+
+
+body{
+  font-family: $fonts;
+}
+
+.hide{
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+
+
+.ter_bg{
+  background-color: $ter_bg;
+
+
+}
+// header scss
+
+@import './components/header';
+
+
+// services Scss
+
+@import './components/services';
+
+// portfolio section
+
+@import './components/portfolio';

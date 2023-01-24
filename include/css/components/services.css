@@ -1,0 +1,27 @@
+.services .section__header {
+  text-align: center;
+}
+
+.services .section__header h2 {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.services .section__content .service__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.services .section__content .service__grid .grid--div .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=services.css.map */

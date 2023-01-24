@@ -1,0 +1,151 @@
+// colors
+
+$primary__color:#050050;
+
+
+
+// backgrounds
+$primary__bg : $primary__color;
+$primary__bg--color:#f8ecb4;
+$text__Grey:rgba($primary__bg--color, 0.536);
+
+// secondary block colors
+
+$sec_bg : #f8ecb4;
+$sec__text--color:#050050;
+$sec__text--color2:rgba($sec__text--color, 0.64);
+
+
+
+.primary_bg {
+  background-color: $primary__bg;
+  color: $primary__bg--color;
+  h5 {
+    color: $primary__bg--color ;
+  }
+  
+}
+
+
+.sec_bg {
+  color: $sec__text__color;
+  background-color: $sec_bg;
+
+  .sec--color2 {
+    color: $sec__text--color2;
+  }
+
+  
+a{
+  color: $sec__text--color;
+}
+
+h5 {
+  color: $primary__color;
+}
+}
+
+$ter_bg:#EF6D58;
+
+
+// fonts
+
+$fonts : 'Epilogue',
+sans-serif;
+
+
+// Fonts-sizes
+
+$Text__Big : 1.25em;
+$Text_small: 0.85em;
+
+h1 {
+  font-size: 4.5em;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 800;
+
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+
+label {
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+
+p{
+  line-height: 1.5em;
+}
+
+// Buttons
+
+$btn__border:rgba(255, 255, 255, 0.2957);
+
+@mixin btn($bgColor: #FFFFFF, $textColor:#391400) {
+  color: $textColor;
+  background-color: $bgColor;
+  padding: 15px 30px;
+  font-size: $Text_small;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.primary__btn {
+  @include btn;
+}
+
+.sec__btn {
+  @include btn($sec__text--color, $sec_bg);
+}
+
+.bordered__btn {
+  @include btn(transparent, $primary__bg--color);
+  border: 1px solid $btn__border;
+
+}
+
+// img
+
+
+img {
+  width: 100%
+}
+
+
+// sections
+
+section {
+  padding: 40px 0px;
+
+  .section__wrapper {
+
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 50px 40px;
+  }
+}
