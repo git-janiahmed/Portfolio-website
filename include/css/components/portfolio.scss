@@ -1,6 +1,6 @@
 .portfolio{
-  background: $primary__bg;
-  color: $primary__bg--color;
+  background: $sec_bg;
+  color: $sec__text--color;
   .portfolio__head{
     max-width: 1300px;
     width: 100%;
@@ -15,8 +15,17 @@
   }
   .portfolio__grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    gap:70px;
     padding-bottom: 40px;
+    .portfolio--item{
+      img{
+      max-width: 400px;
+     aspect-ratio: 2/3;
+
+     object-fit: cover;
+    }
+  }
   }
 }

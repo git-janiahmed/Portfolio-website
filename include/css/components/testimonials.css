@@ -1,0 +1,33 @@
+.testimonials .section__header {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.testimonials .section__header h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 5em;
+}
+
+.testimonials .section__header h2 .small {
+  font-size: 30px;
+}
+
+.testimonials .testimonials__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.testimonials .testimonials__grid .testimonial {
+  padding: 20px;
+}
+
+.testimonials .testimonials__grid .testimonial .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=testimonials.css.map */
